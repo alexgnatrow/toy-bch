@@ -1,0 +1,12 @@
+[package]
+name = "toy-bch"
+version = "0.1.0"
+authors = ["alexgnatrow <lesha.gnat@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+time = "*"
+serde = {version = "*", features = ["derive"]}
+serde_derive = "*"
+serde_json = "*"
+sha2 = "*"
