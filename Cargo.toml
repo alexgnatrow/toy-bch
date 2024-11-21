@@ -9,4 +9,4 @@ time = "*"
 serde = {version = "*", features = ["derive"]}
 serde_derive = "*"
 serde_json = "*"
-sha2 = "*"
+sha2 = "0.10.2"

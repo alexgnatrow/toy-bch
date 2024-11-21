@@ -1,0 +1,30 @@
+toy-bch v0.1.0 (/home/pickle/Documents/rust/toy-bch)
+├── serde v1.0.89
+│   └── serde_derive v1.0.89 (proc-macro)
+│       ├── proc-macro2 v0.4.27
+│       │   └── unicode-xid v0.1.0
+│       ├── quote v0.6.11
+│       │   └── proc-macro2 v0.4.27 (*)
+│       └── syn v0.15.29
+│           ├── proc-macro2 v0.4.27 (*)
+│           ├── quote v0.6.11 (*)
+│           └── unicode-xid v0.1.0
+├── serde_derive v1.0.89 (proc-macro) (*)
+├── serde_json v1.0.39
+│   ├── itoa v0.4.3
+│   ├── ryu v0.2.7
+│   └── serde v1.0.89 (*)
+├── sha2 v0.10.2
+│   ├── cfg-if v1.0.0
+│   ├── cpufeatures v0.2.2
+│   └── digest v0.10.3
+│       ├── block-buffer v0.10.2
+│       │   └── generic-array v0.14.6
+│       │       └── typenum v1.15.0
+│       │       [build-dependencies]
+│       │       └── version_check v0.9.4
+│       └── crypto-common v0.1.6
+│           ├── generic-array v0.14.6 (*)
+│           └── typenum v1.15.0
+└── time v0.1.42
+    └── libc v0.2.126
